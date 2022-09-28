@@ -1,1 +1,26 @@
-/*# sourceMappingURL=estilo.css.map */
+.navbar-brand {
+  font-size: 25px;
+}
+
+.iconoCarrito {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: rgb(134, 133, 133);
+}
+
+#contadorCarrito {
+  color: rgb(134, 133, 133);
+  font-size: 20px;
+}
+
+main {
+  height: 400px;
+}
+
+.barra .buscador {
+  width: 250px;
+}
+.barra .lupita {
+  font-size: 1.4rem;
+  color: rgb(134, 133, 133);
+}/*# sourceMappingURL=estilo.css.map */

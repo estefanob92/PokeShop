@@ -3,8 +3,8 @@
 }
 
 .iconoCarrito {
-  font-size: 2rem;
-  margin-right: 1rem;
+  font-size: 30px;
+  margin-right: 20px;
   color: rgb(134, 133, 133);
 }
 
@@ -13,14 +13,34 @@
   font-size: 20px;
 }
 
-main {
-  height: 400px;
+.barra {
+  background-color: rgb(238, 234, 234);
+  padding: 5px;
 }
-
 .barra .buscador {
   width: 250px;
 }
 .barra .lupita {
   font-size: 1.4rem;
   color: rgb(134, 133, 133);
+}
+
+main {
+  height: 400px;
+}
+main .itemList div {
+  /* width: 80px;
+  height: 80px; */
+  overflow: hidden;
+  margin: 5px;
+}
+main .itemList .contenedorItem {
+  background-color: rgb(162, 203, 226);
+}
+main .itemList .contenedorItem .imagenItem {
+  width: 30px;
+}
+
+footer {
+  background-color: rgb(238, 234, 234);
 }/*# sourceMappingURL=estilo.css.map */

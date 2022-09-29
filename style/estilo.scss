@@ -2,28 +2,24 @@
     //border: solid 1px grey;
 }
 
+//head
+
 .navbar-brand{
     font-size: 25px;
 }
-
 .iconoCarrito{
-    font-size: 2rem;
-    margin-right: 1rem; 
+    font-size: 30px;
+    margin-right: 20px; 
     color: rgb(134, 133, 133);
 }
-
 #contadorCarrito{
     color: rgb(134, 133, 133);
     font-size: 20px;
     
 }
-
-main{
-    height: 400px;
-}
-
-
 .barra{
+    background-color: rgb(238, 234, 234);
+    padding: 5px;
     .buscador{
         width: 250px;
     }
@@ -31,4 +27,31 @@ main{
         font-size: 1.4rem;
         color: rgb(134, 133, 133);
     }
+}
+
+
+// body
+
+main{
+    height: 400px;
+    .itemList{
+        div{
+            /* width: 80px;
+            height: 80px; */  
+            overflow: hidden;
+            margin: 5px;
+        }
+        .contenedorItem{
+            background-color: rgb(162, 203, 226);
+            .imagenItem{
+                width: 30px;
+            }
+        }
+    }
+}
+
+// footer
+
+footer{
+    background-color: rgb(238, 234, 234);
 }

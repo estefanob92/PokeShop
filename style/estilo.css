@@ -25,9 +25,6 @@
   color: rgb(134, 133, 133);
 }
 
-main {
-  height: 400px;
-}
 main .itemList div {
   /* width: 80px;
   height: 80px; */
@@ -38,7 +35,7 @@ main .itemList .contenedorItem {
   background-color: rgb(162, 203, 226);
 }
 main .itemList .contenedorItem .imagenItem {
-  width: 30px;
+  width: 60px;
 }
 
 footer {

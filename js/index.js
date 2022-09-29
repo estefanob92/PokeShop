@@ -3,7 +3,7 @@ console.log(contenedorItems)
 
 
 function fetchItem(id){
-    fetch(`https://pokeapi.co/api/v2/ability/${id}/`)
+    fetch(`https://pokeapi.co/api/v2/pokemon/${id}/`)
     .then(res => res.json())
     .then(data => { 
         createItem(data);
@@ -33,7 +33,11 @@ function createItem(item){
     
     const imagen = document.createElement('img');
     imagen.classList.add('imagenItem');
-    imagen.src = 'img/jiggly.png';
+
+    const sprite = item.sprites.front_default;
+
+    imagen.setAttribute('src', sprite)
+    
 
     const numeroItem = document.createElement('p')
     numeroItem.textContent = `# ${item.id}`;

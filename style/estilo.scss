@@ -2,8 +2,7 @@
     //border: solid 1px grey;
 }
 
-//head
-
+//header
 .navbar-brand{
     font-size: 25px;
 }
@@ -21,7 +20,9 @@
     background-color: rgb(238, 234, 234);
     padding: 5px;
     .buscador{
-        width: 250px;
+        #inputBusqueda{
+            width: 90px;
+        }
     }
     .lupita{
         font-size: 1.4rem;
@@ -31,17 +32,20 @@
 
 
 // body
-
 main{
     .itemList{
         div{
-            /* width: 80px;
-            height: 80px; */  
+            width: 100px;
             overflow: hidden;
             margin: 5px;
+            padding: 10px;
         }
         .contenedorItem{
             background-color: rgb(162, 203, 226);
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
             .imagenItem{
                 width: 60px;
             }
@@ -50,7 +54,6 @@ main{
 }
 
 // footer
-
 footer{
     background-color: rgb(238, 234, 234);
 }
